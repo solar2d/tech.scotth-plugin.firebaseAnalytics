@@ -5,6 +5,7 @@ local lib = Library:new{ name='plugin.firebaseAnalytics', publisherId='tech.scot
 -- Default implementations
 local function defaultFunction()
 	print( "WARNING: The '" .. lib.name .. "' library is not available on this platform." )
+	print( "WARNING: this plugin outdated please use version from solar2dmarketplace.com." )
 end
 
 lib.init = defaultFunction
